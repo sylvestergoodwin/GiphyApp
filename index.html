@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Talk Giphy To Me</title>
+	<!-- Linking CSS -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="assets/js/giphy.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/giphy.css">
+</head>
+
+
+<body>
+
+	<div class="jumbotron" >
+    <div class=" text-center">
+      <h3> Giphy </h3> 
+      <h4> Do The Giphy Thing </h4>
+    </div>
+  </div>
+
+	<div class="panel panel-default panel-heading text-center"> Giphy Search Buttons
+		<div id="giphy-button-list"> 
+		</div>
+	</div>
+
+	<br><br>
+	<div id="giphy-search">
+		<form id="giphy-search-form">
+			<label for "giphy-search-category"> Category </label>
+			<input type="text" id="giphy-search-category">
+			
+			<label for "giphy-search-input"> Search Criteria </label>
+			<input type="text" id="giphy-search-input">
+			
+			<label for "giphy-search-input-image-count"> How many Images </label>
+			<input type="text" id="giphy-search-input-image-count" size="4">
+			
+			<input id="giphy-do" type="submit" value="Giphy Me" > 
+		</form>
+		<hr>
+		<br>
+	</div>
+	<div id="giphy-gifs">
+	
+	
+		
+	</div>
+
+
+</body>	
+
+<script>
+	doTheGiphy();
+</script>		
